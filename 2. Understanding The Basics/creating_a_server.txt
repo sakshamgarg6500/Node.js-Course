@@ -1,0 +1,11 @@
+//CREATING A NODE SERVER
+
+//CORE MODULES
+
+//1. https : to launch a server and send requests
+//node.js can also send request to different servers and hence servers can communicate with each other
+
+//2. https
+//3. fs
+//4. path
+//5. os 

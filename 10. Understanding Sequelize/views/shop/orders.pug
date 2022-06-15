@@ -1,0 +1,16 @@
+extends ../layouts/main_layout.pug
+
+block styles
+
+block content   
+    main    
+        if orders.length <=0
+            h1 Nothing Here
+        else 
+            ul 
+                each order in orders
+                    li 
+                        h1 #{order.id}
+                        ul 
+                            each item in order.products
+                                li #{item.title} (#{item.orderItem.quantity})

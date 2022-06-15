@@ -1,0 +1,5 @@
+HTTP : Hyper Text Transfer Protocol
+A Protocol for transferring data which is understood by browser and server
+
+HTTTPS : HTTP Secure
+HTTP + Data Encryption(during tansmission)
